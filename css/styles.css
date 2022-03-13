@@ -1,0 +1,175 @@
+
+
+/* every html is treated as a box by CSS, box model */
+
+
+body {
+	margin: 0;
+  text-align: center;
+}
+
+h1 {
+	margin-top: 0;
+  font-size: 90px;
+  color: black;
+}
+
+
+h2 {
+  color: black;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+
+h3 {
+  color: #66BFBF;
+}
+
+
+p {
+  font-size: 25px;
+}
+
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+.mark {
+  text-decoration: underline;
+}
+
+
+.first-container {
+  background-color: #88E0EF;
+  /* width: 200px; */
+  /* height: 200px; */
+/*   padding: 20px; */
+  border: solid 10px;
+  font-family: 'Sacramento', sans-serif;
+}
+
+
+.second-container {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  /* margin: 10px; */
+  /* position: absolute; */
+  position: fixed;
+  top: 450px;
+  /* left: 200px; */
+  }
+
+
+.third-container {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  position: fixed;
+  top: 670px;
+  left: 220px;
+}
+
+
+.forth-container {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  position: fixed;
+  top: 890px;
+  left: 440px;
+  display: inline-block;
+}
+
+
+.fifth-container {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: absolute;         /* relative to its parents, which is block block*/
+  right: 100px;
+  border: solid 10px;
+  top: 890px;
+}
+
+
+.header-img {
+  width: 15%
+  /* padding-bottom: 10px; */
+}
+
+
+.skill-row {
+  width: 30%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1;
+}
+
+
+.skill-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.test {
+  clear: left;
+  /* clear: right; clear the right side if there is something */
+}
+
+
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+
+.btn {
+  background: #65747d;
+  background-image: -webkit-linear-gradient(top, #65747d, #96bfd9);
+  background-image: -moz-linear-gradient(top, #65747d, #96bfd9);
+  background-image: -ms-linear-gradient(top, #65747d, #96bfd9);
+  background-image: -o-linear-gradient(top, #65747d, #96bfd9);
+  background-image: linear-gradient(to bottom, #65747d, #96bfd9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a3603c;
+  background-image: -webkit-linear-gradient(top, #a3603c, #d93491);
+  background-image: -moz-linear-gradient(top, #a3603c, #d93491);
+  background-image: -ms-linear-gradient(top, #a3603c, #d93491);
+  background-image: -o-linear-gradient(top, #a3603c, #d93491);
+  background-image: linear-gradient(to bottom, #a3603c, #d93491);
+  text-decoration: none;
+}
+
+
+.bottom-container {
+  margin: 30px 0px 0px 0px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+
