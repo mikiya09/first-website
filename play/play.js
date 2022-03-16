@@ -27,6 +27,18 @@ document.addEventListener("keypress", function(event) {
 });
 
 
+// 月亮代表我的心
+document.querySelector(".leslie").addEventListener("click", function() {
+
+  var buttonInnerHTML = this.innerHTML;
+
+  makeSound(buttonInnerHTML);
+
+  buttonAnimation(buttonInnerHTML);
+
+});
+
+
 function makeSound(key) {
 
     switch (key) {
@@ -64,13 +76,20 @@ function makeSound(key) {
         var kick = new Audio("sounds/kick-bass.mp3");
         kick.play();
         break;
-        
+
+      case "leslie":
+        var song = new Audio("sounds/月亮代表我的心-张国荣.mp3");
+        song.play();
+        // disable click after this button has been click
+        // the problem is that it will be able to click until refresh the page
+        document.getElementById("e").disabled = true;
+        break;
+
 
       default: console.log(buttonInnerHTMl);    // you don't have to write this here, it's like "else"
 
     }
 }
-
 
 
 function buttonAnimation(currentKey) {
@@ -84,6 +103,7 @@ function buttonAnimation(currentKey) {
   }, 100);
 
 }
+
 
 
 

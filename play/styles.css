@@ -44,6 +44,13 @@ footer {
   background-image: url("images/kick.png")
 }
 
+
+.leslie {
+  background-image: url("images/leslie.png")
+}
+
+
+
 .set {
   margin: 10% auto;
 }
@@ -61,6 +68,30 @@ footer {
 .red {
   color: red;
 }
+
+
+.leslie {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 0;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  position: relative;
+  top: -46px;
+  /* display: inline-block; */
+  /* left: 200px; */
+
+}
+
 
 .drum {
   outline: none;
