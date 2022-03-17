@@ -1,63 +1,151 @@
 
 
 body {
-  background-color: grey;
+  background-color: #283149;
 }
 
 
 h1 {
-  margin-top: 0;
-  font-size: 30px;
   color: black;
-  /* display: inline-block; */
-  text-decoration: underline;
 }
+
+
+h2 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+
+h3 {
+  display: inline-block;
+  font-size: 25px;
+  margin: 20px 20px;
+}
+
 
 
 .top1 {
   background-color: green;
-  font-size: 40px;
   display: inline-block;
-  position: relative;
-  top: 50px;
-  left: 200px;
   border: solid 7px;
+  margin: 60px 50px 15px 350px;
+  width: 6%;
+  height: 4rem;
+  text-align: center;
+  font-family: Ubuntu;
 }
 
+
 .top2 {
-  background-color: yellow;
-  font-szie: 40px;
+  background-color: blue;
   display: inline-block;
-  position: relative;
-  top: 50px;
-  left: 230px;
   border: solid 7px;
+  margin: 0px 50px 0px 0px;
+  width: 5%;
+  height: 4rem;
+  text-align: center;
+  font-family: Ubuntu;
 }
 
 .top3 {
   background-color: pink;
-  width: 600px;
-  height: 200px;
-  font-size: 40px;
-  position: relative;
-  top: 100px;
-  left: 200px;
+  display: inline-block;
   border: solid 7px;
-  /* display: inline-block; */
+  width: 8%;
+  height: 4rem;
+  text-align: center;
+  font-family: Ubuntu;
+}
+
+.side {
+  border: solid 7px;
+  width: 25%;
+  height: 580px;
+  float: left;
+  margin: 40px 0px 0px 0px;
+  display: inline-block;
+  text-align: center;
+  font-family: Ubuntu;
+}
+
+
+.play {
+  display: inline-block;
+  float: left;
+  border: solid 7px;
+  width: 55%;
+  height: 580px;
+  margin: 40px 100px;
+  font-family: Ubuntu;
+  /* text-align: center; */
+}
+
+.intro {
+  display: inline-block;
+  float: right;
+  height: 270px;
+  width: 43%;
+  border: solid 7px;
+  margin: -310px 50px 0px 0px;
+  font-family: Ubuntu;
+  text-align: center;
+}
+
+.personal-img {
+  margin: 10px 0px 0px 10px;
+  width: 25%;
+  float: left;
+}
+
+.personal-intro {
+  margin: 100px 10px 0px 0px;
 }
 
 .music {
-  background-color: purple;
-  display: inline-block;
-  position: relative;
-  font-size: 40px;
-  top: -113px;
-  left: 850px;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  border: solid 7px;
+  width: 30%;
+  margin: 50px 300px;
 }
+
+
+.music1 {
+  background-color: white;
+  width: 26%;
+  height: 60px;
+  border: 7px solid #404B69;
+  margin: 0px 0px 0px 200px;
+
+  outline: none;
+  border-radius: 15px;
+  text-align: center; 
+  font-size: 15px;
+  font-family: 'Ubuntu', cursive;
+
+}
+
+.music2 {
+  background-color: white;
+  width: 26%;
+  height: 60px;
+  margin: 0px 0px 0px 200px;
+  border: 7px solid #404B69;
+  outline: none;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Ubuntu', cursive;
+}
+
+.music3 {
+  background-color: white;
+  width: 26%;
+  height: 60px;
+  border: 7px solid #404B69;
+  margin: 0px 0px 0px 200px;
+  outline: none;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Ubuntu', cursive;
+}
+
 
 
 
