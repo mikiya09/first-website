@@ -1,99 +1,105 @@
 
 
+/* design logic: must have responsive website to fit phone/tablet/computer --> the order goes from left to right, the original css code is for phone */
+/* remember to add this line below <title></title> and above <link to style.css>: <meta name="viewport" content="width=device-width, initial-scale=1.0"> */
+/* iphone XR */
+
+
+
+/* set all margin and padding to zero at the beginning so that we don't need to adjust a lot */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #283149;
-  margin: 40px 90px 0px 90px;
+  padding: 20px;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+p {
+  font-size: 15px;
 }
 
 
-a {
-  text-decoration: none;
-  color: black;
-  font-family: Ubuntu;
-  font-size: 32px;
-}
-
-
-
-/* -------- search --------- */
+/*============ search =============*/
 .floating {
-  /* margin: 100px; */
-  width: 30%;
   display: inline-block;
-}
-
-.floating-img {
-  display: inline-block;
-  width: 25%;
-  size: 20%;
   position: relative;
-  top: 15px;
+}
+
+.crocodile {
+  position: relative;
+  height: auto;
+  width: 80px;
+  padding: 10px 0px 0px 10px;
 }
 
 
-
-
-/* ------ navigation ------- */
+/* ========== navigation ========== */
 .navigate {
-  width: 30%;
   display: inline-block;
   position: relative;
-  top: 10px;
-  left: 720px;
-  text-align: center;
 }
 
 .home {
   display: inline-block;
   position: relative;
+  left: 70px;
 }
 
 .fun {
   display: inline-block;
   position: relative;
-  left: 35px;
+  left: 100px;
 }
 
 .contact {
   display: inline-block;
   position: relative;
-  left: 70px;
-}
+  left: 125px;
+} 
 
 .search-bar {
-  display: inline-block;
-  position: relative;
-  left: 100px;
-  bottom: 5px;
-  border: 2px solid;
-  /* margin: 0px 10px 0px 0px; */
+  display: none;
 }
 
-/* ---------- stack ---------- */
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Ubuntu;
+  font-size: 20px;
+}
+
+
 .mid {
-  /* width: 40%; */
   position: relative;
-  top: 10px;
+  padding: 20px 0px 20px 0px;
 }
-
+/* ========== stack ========= */
 
 .stack {
-  width: 30%;
   display: inline-block;
   position: relative;
+  width: 100%;
   text-align: center;
-  left: 200px;
-  top: 20px;
+  padding: 0px 0px 20px 0px;
 }
 
 .stack1 {
   background-color: white;
-  border: 5px solid #404B69;
-  width: 40%;
-  height: 4rem;
+  display: inline-block;
   position: relative;
-  left: 160px;
-
+  width: 20%;
+  height: 2rem;
+  right: 30px;
+  
+  border: 5px solid #404B69;
   outline: none;
   border-radius: 15px;
   text-align: center;
@@ -101,12 +107,13 @@ a {
 
 .stack2 {
   background-color: white;
-  border: 5px solid #404B69;
-  width: 40%;
-  height: 4rem;
+  display: inline-block;
   position: relative;
-  left: 160px;
+  width: 20%;
+  height: 2rem;
+  right: 0px;
 
+  border: 5px solid #404B69;
   outline: none;
   border-radius: 15px;
   text-align: center;
@@ -114,74 +121,89 @@ a {
 
 .stack3 {
   background-color: white;
-  border: 5px solid #404B69;
-  width: 40%;
-  height: 4rem;
+  display: inline-block;
   position: relative;
-  left: 160px;
+  width: 20%;
+  height: 2rem;
+  left: 30px;
 
+  border: 5px solid #404B69;
   outline: none;
   border-radius: 15px;
   text-align: center;
 }
 
 
-/* ---------- intro --------- */
-
-
+/* ========== intro ========== */
 .intro {
-  /* height: 100px; */
-  display: inline-block;
-  position: relative;
-  height: 250px;
-  border: 7px solid;
-  bottom: 7px;
-  width: 50%;
-  left: 355px;
-}
-.personal-image {
-  display: inline-block;
-  padding: 50px 0px 0px 0px;
+  padding: 0px 0px 20px 0px;
+  border: solid;
+  border-radius: 15px;
 }
 
+.personal-image {
+  border: solid;
+  border-radius: 50%;
+  background-color: white;
+  width: 15%;
+  height: 15%;
+  position: relative;
+  padding: 10px;
+  top: 12px;
+  left: 15px;
+}
 
 .personal-detail {
+  position: relative;
   display: inline-block;
+  inline-size: 60%;
+  overflow-wrap: break-word;
+  /* padding: 0px 0px 10px 30px; */
+  left: 30px;
+  top: -14px;
 }
 
 
-
-/* ---------- bottom ---------- */
-
+/* ======== bottom ======== */
 .bottom {
   position: relative;
   top: 20px;
+
 }
 
 .new {
-  border: 7px solid;
-  position: relative;
-  display: inline-block;
-  width: 60%;
-  height: 650px;
+  padding: 0px 0px 20px 0px;
 }
 
-.interest {
-  border: 7px solid;
+.new1 {
+  text-align: center;
+  border: solid;
+  padding: 80px;
+  border-radius: 15px;
   position: relative;
-  display: inline-block;
-  width: 30%;
-  left: 100px;
-  height: 650px;
-
 }
 
 
+.interest-header {
+  position: relative;
+  padding: 10px;
+}
+ 
 .topics {
+  position: relative;
   display: inline-block;
 }
 
+.topic1 {
+  position: relative;
+  padding: 10px;
+}
 
+.topic2 {
+  position: relative;
+  padding: 10px;
+}
 
-
-
+.social {
+  text-align: center;
+}
