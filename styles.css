@@ -261,7 +261,7 @@ h4 {
 
 
 /* ============== ipad 12.9 inch resolution for best experience =============== */
-@media only screen and (min-width: 1130px) {
+@media only screen and (min-width: 1000px) {
  
   body {
     padding: 20px 125px 0px 125px;
@@ -364,7 +364,7 @@ h4 {
 /* ============ desktop resolution ============ */
 /* ======= use 2060px width for best experience ======= */
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1300px) {
 
   body {
     padding: 20px 150px 0px 150px;
@@ -401,6 +401,7 @@ h4 {
   }
 
   .heap {
+    border: solid;
     position: relative;
     display: inline-block;
     left: 160px;
@@ -411,8 +412,6 @@ h4 {
   .heap1 {
     display: block;
     padding: 0px;
-    left: 85px;
-    bottom: 70px;
   }
 
   .heap2 {
