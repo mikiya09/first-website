@@ -45,24 +45,25 @@ p {
 .navigate {
   display: inline-block;
   position: relative;
+  width: 74%;
+  text-align: right;
 }
 
 .home {
   display: inline-block;
   position: relative;
-  left: 70px;
+  right: 40px;
 }
 
 .fun {
   display: inline-block;
   position: relative;
-  left: 100px;
+  right: 20px;
 }
 
 .contact {
   display: inline-block;
   position: relative;
-  left: 125px;
 } 
 
 .search-bar {
@@ -79,39 +80,51 @@ a {
 
 .mid {
   position: relative;
-  padding: 20px 0px 20px 0px;
+  padding: 10px 0px 20px 0px;
 }
-/* ========== stack ========= */
+/* ========== heap ========= */
 
-.stack {
+.heap {
+  padding: 0px 0px 10px 0px;
+}
+
+.heap1 {
   display: inline-block;
   position: relative;
-  width: 100%;
-  text-align: center;
-  padding: 0px 0px 20px 0px;
+  width: 45%;
+  padding: 10px;
 }
 
-.stack1 {
+.heap2 {
+  display: inline-block;
+  position: relative;
+  width: 45%;
+  left: 20px;
+} 
+
+
+.heap3 {
+  display: inline-block;
   background-color: white;
-  display: inline-block;
   position: relative;
-  width: 20%;
+  width: 40%;
   height: 2rem;
-  right: 30px;
-  
+  left: 10px;
+
   border: 5px solid #404B69;
   outline: none;
   border-radius: 15px;
   text-align: center;
 }
 
-.stack2 {
-  background-color: white;
+
+.heap4 {
   display: inline-block;
+  background-color: white;
   position: relative;
-  width: 20%;
+  width: 40%;
   height: 2rem;
-  right: 0px;
+  left: -66px;
 
   border: 5px solid #404B69;
   outline: none;
@@ -119,13 +132,13 @@ a {
   text-align: center;
 }
 
-.stack3 {
-  background-color: white;
+.heap5 {
   display: inline-block;
+  background-color: white;
   position: relative;
-  width: 20%;
+  width: 40%;
   height: 2rem;
-  left: 30px;
+  left: -20px;
 
   border: 5px solid #404B69;
   outline: none;
@@ -141,6 +154,7 @@ a {
   border-radius: 15px;
 }
 
+
 .personal-image {
   border: solid;
   border-radius: 50%;
@@ -148,9 +162,8 @@ a {
   width: 15%;
   height: 15%;
   position: relative;
-  padding: 10px;
   top: 12px;
-  left: 15px;
+  left: 30px;
 }
 
 .personal-detail {
@@ -158,9 +171,10 @@ a {
   display: inline-block;
   inline-size: 60%;
   overflow-wrap: break-word;
+  top: 10px;
+  left: 50px;
+  bottom: 5px;
   /* padding: 0px 0px 10px 30px; */
-  left: 30px;
-  top: -14px;
 }
 
 
@@ -172,38 +186,334 @@ a {
 }
 
 .new {
-  padding: 0px 0px 20px 0px;
-}
-
-.new1 {
-  text-align: center;
   border: solid;
-  padding: 80px;
-  border-radius: 15px;
   position: relative;
+  height: 200px;
+  top: 10px;
+  text-align: center;
 }
 
-
-.interest-header {
+.interest {
+  border: solid;
   position: relative;
-  padding: 10px;
+  height: 340px;
+  top: 10px;
 }
- 
+
 .topics {
+  border: solid;
   position: relative;
-  display: inline-block;
-}
-
-.topic1 {
-  position: relative;
-  padding: 10px;
-}
-
-.topic2 {
-  position: relative;
-  padding: 10px;
+  height: 40%;
+  top: 30px;
 }
 
 .social {
+  border: solid;
+  position: relative;
+  height: 40%;
+  top: 50px;
+}
+
+h4 {
+  display: inline-block;
+  border: solid;
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.topic-header {
+  padding: 5px;
   text-align: center;
 }
+
+.topic-content1 {
+  padding: 5px 0px 5px 10px;
+  text-align: center;
+}
+
+.topic-content2 {
+  padding: 5px 0px 5px 10px;
+  text-align: center;
+}
+
+.social-header {
+  padding: 5px;
+  text-align: center;
+}
+
+.social-content1 {
+  padding: 5px 0px 5px 10px;
+  text-align: center;
+}
+
+.social-content2 {
+  padding: 5px 0px 5px 10px;
+  text-align: center;
+}
+
+.social-content3 {
+  padding: 5px 0px 5px 10px;
+  text-align: center;
+}
+
+  
+
+
+/* ============== ipad 12.9 inch resolution for best experience =============== */
+@media only screen and (min-width: 1130px) {
+ 
+  body {
+    padding: 20px 125px 0px 125px;
+  }
+
+  .navigate {
+    width: 90%;
+    text-align: right;
+  }
+
+
+  .mid {
+    padding: 20px 0px 30px 0px;
+  }
+
+  .heap {
+    padding: 30px 0px 30px 0px;
+  }
+
+  .heap1 {
+    position: relative;
+    left: 80px;
+  }
+
+  .heap2 {
+    position: relative;
+    left: 85px;
+  }
+
+  .heap4 {
+    position: relative;
+    left: -155px;
+  }
+
+  .personal-image {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 90px;
+  }
+
+  .personal-detail {
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+  }
+
+
+  .new {
+    height: 300px;
+  }
+
+  .interest {
+    height: 230px;
+  }
+
+  .topics {
+    display: inline-block;
+    position: relative;
+    height: 90%;
+    top: -25px;
+    left: 250px;
+  }
+
+  .topic-header {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .topic-content {
+    padding: 20px 20px 0px 20px;
+  }
+
+
+  .social {
+    display: inline-block;
+    position: relative;
+    height: 90%; 
+    top: 10px;
+    left: 400px;
+  }
+
+  .social-header {
+    padding: 0px;
+    font-size: 25px;
+  }
+
+  .social-content {
+    font-size: 30px;
+    padding: 20px 40px 0px 40px;
+  }
+
+}
+
+
+
+/* ============ desktop resolution ============ */
+/* ======= use 2060px width for best experience ======= */
+
+@media only screen and (min-width: 1800px) {
+
+  body {
+    padding: 20px 150px 0px 150px;
+  }
+
+  .navigate {
+    width: 90%;
+    text-align: right;
+  }
+  
+  .search-bar {
+    position: relative;
+    display: inline-block;
+  }
+
+  .home {
+    right: 180px;
+  }
+
+  .fun {
+    right: 120px;
+  }
+
+  .contact {
+    right: 60px;
+  }
+
+  a {
+    font-size: 35px;
+  }
+
+  .mid {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .heap {
+    position: relative;
+    display: inline-block;
+    left: 160px;
+    top: 110px;
+    width: 30%;
+  }
+
+  .heap1 {
+    display: block;
+    padding: 0px;
+    left: 85px;
+    bottom: 70px;
+  }
+
+  .heap2 {
+    left: 95px;
+    bottom: 40px;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .heap3 {
+    width: 70%;
+    height: 65px;
+  }
+
+  .heap4 {
+    display: block;
+    width: 70%;
+    height: 65px;
+    left: 0px;
+    bottom: 10px;
+  }
+
+  .heap5 {
+    width: 70%;
+    left: 0px;
+    height: 65px;
+    top: 10px;
+  }
+
+  .intro {
+    display: inline-block;
+    position: relative;
+    width: 900px;
+    height: 250px;
+    left: 220px;
+    bottom: 50px;
+  }
+
+  .personal-image {
+    width: 15%;
+    height: 55%;
+    top: 50px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .bottom {
+    top: 0px;
+  }
+
+  .new {
+    display: inline-block;
+    width: 70%;
+    height: 530px;
+    position: relative;
+    top: -383px;
+    left: 20px;
+  }
+
+
+  .interest {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    padding: 40px;
+    left: 70px;
+    top: 50px;
+    height: 450px;
+  }
+
+  .topic-header {
+    font-size: 30px;
+  } 
+
+  .topics {
+    top: 0px;
+    left: 0px;
+    height: 50%;
+    text-align: left;
+    display: block;
+  }
+
+  .topic-content1 {
+    display: inline-block;
+    position: relative;
+  }
+
+
+  .social {
+    left: 63px;
+    height: 50%;
+  }
+
+
+
+
+}
+
+
+
