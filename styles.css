@@ -464,7 +464,7 @@ h4 {
   }
 
   .bottom {
-    top: 0px;
+    height: 600px;
   }
 
   .new {
@@ -482,7 +482,7 @@ h4 {
     position: relative;
     width: 20%;
     padding: 40px;
-    left: 70px;
+    left: 55px;
     top: 50px;
     height: 450px;
   }
