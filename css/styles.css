@@ -183,12 +183,65 @@ h4 {
 
 
 /* ============ ipad mini ============ */
+@media only screen and (min-width: 700px) {
 
+  body {
+    padding: 50px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  .navigate {
+    position: relative;
+    left: 100px;
+  }
+
+  .heap_1 {
+    padding: 10px;
+    width: 17%;
+    right: 50px;
+  }
+
+  .heap_2 {
+    padding: 10px;
+    width: 17%;
+  }
+
+  .heap_3 {
+    padding: 10px;
+    width: 17%;
+    left: 50px;
+  }
+
+  .intro {
+    padding: 60px;
+  }
+
+  .personal-image {
+    width: 10%;
+    top: -40px;
+  }
+
+  .new {
+    height: 300px;
+  }
+
+  .interest {
+    height: 200px;
+  }
+
+  .social {
+    height: 200px;
+  }
+
+}
 
 
 
 /* ========== ipad 12.9 inch resolution for best experience =========== */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1600px) {
 
   body {
     padding: 20px 100px 0px 100px;
