@@ -1,0 +1,215 @@
+/* something remmeber to add about responsive website detail */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+body {
+  background-color: #A2D5AB;
+  padding: 20px 120px 0px 120px;
+}
+
+/* ========= top ========= */
+.main-img {
+  display: inline-block;
+  position: relative;
+  /* width: 20%; */
+}
+
+.crocodile {
+  position: relative;
+  height: 35%;
+  width: 20%;
+}
+
+.navigate {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  left: 920px;
+}
+
+.home {
+  display: inline-block;
+  position: relative;
+  right: 150px;
+}
+
+.fun {
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+.contact {
+  display: inline-block;
+  position: relative;
+  right: 50px;
+}
+
+.search-bar {
+  display: inline-block;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* ========== mid ========== */
+.mid {
+  position: relative;
+  padding: 50px 0px 20px 150px;
+  top: 40px;
+}
+
+.stack {
+  text-align: left;
+  display: inline-block;
+  margin: 0px 350px 0px 20px;
+}
+
+.topHeap {
+  width: 250%;
+}
+
+.midHeap {
+  width: 250%;
+}
+
+.bottomHeap {
+  width: 250%;
+}
+
+.heapOne {
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+.heapTwo {
+  position: relative;
+  display: inline-block;
+  font-size: 100%;
+  background-color: white;
+  padding: 5px;
+  width: 20%;
+  height: 60px;
+
+  border: 5px solid #404B69;
+  outline: none;
+  border-radius: 15px;
+  text-align: center;
+  margin: 7px 0px 7px 0px;
+}
+
+.heapThree {
+  display: inline-block;
+  margin: 0px 0px 0px 20px;
+}
+
+.topLeft {
+  visibility: hidden;
+}
+
+.bio {
+  display: inline-block;
+  border: solid 2px;
+  border-radius: 15px;
+  padding: 40px;
+  position: relative;
+  bottom: 4px;
+  width: 45%;
+  height: 180px;
+}
+
+.bio-img {
+  display: inline-block;
+  width: 18%;
+  margin: 15px 40px 0px 0px;
+  float: left;
+  border: solid 2px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 0px;
+}
+
+.bottom {
+  margin: 60px 0px 0px 0px;
+}
+
+.new {
+  text-align: center;
+  border: solid 2px;
+  width: 65%;
+  height: 600px;
+  border-radius: 15px;
+  margin: 0px 30px 25px 90px;
+  display: inline-block;
+
+  position: relative;
+  top: 50px;
+}
+
+/* .new-1 { */
+/*   border: solid; */
+/*   margin: 10px 0px 0px 280px; */
+/*   padding: 10px; */
+/*   width: 50%; */
+/* } */
+
+.topics {
+  display: inline-block;
+  width: 20%;
+  border: solid 2px;
+  border-radius: 15px;
+  padding: 0px 25px 0px 25px;
+}
+
+
+.interest {
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+h4 {
+  display: inline-block;
+  border: solid 2px;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0px 0px 10px 0px;
+}
+  
+
+.interest-1 {
+  margin: 0px 0px 0px 0px;
+}
+
+.resource {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.resource-header {
+  margin: 0px 0px 10px 0px;
+}
+.social {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.social-header {
+  margin: 0px 0px 10px 0px;
+}
