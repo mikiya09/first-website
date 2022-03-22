@@ -14,6 +14,7 @@ body {
   height: 150px;
   /* border: solid 2px; */
   background-color: #283149;
+  /* background: pink; */
   position: relative;
 }
 
@@ -22,7 +23,8 @@ body {
   height: 100px;
   /* border: solid 2px; */
   position: relative;
-  bottom: 0px;
+  padding: 20px 0px 0px 0px;
+  bottom: 15px;
 }
 
 .jellyfish {
@@ -30,7 +32,7 @@ body {
   position: absolute;
   bottom: 0px;
   left: 47%;
-  border: solid 3px;
+  /* border: solid 3px; */
   border-radius: 50%;
   background: white;
 }
@@ -43,6 +45,7 @@ body {
   background-color: #283149;
   position: relative;
   text-align: center;
+  top: 0px;
 }
 
 .home {
@@ -74,12 +77,56 @@ a {
   position: relative;
 }
 
+
+.bio-container {
+  width: 30%;
+  height: 150px;
+  border: solid 2px;
+  border-radius: 20px;
+  position: absolute;
+  top: 27%;
+  left: 20%;
+}
+
+.bio {
+  /* border: solid 2px; */
+  width: 150px;
+  height: 110px;
+  position: relative;
+  top: 11%;
+  left: 20px;
+  display: inline-block;
+}
+
+.bio-img {
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  border: solid 2px;
+  border-radius: 50%;
+  background: white;
+  /* margin: 10px; */
+}
+
+.bio-text {
+  font-size: 25px;
+  display: inline-block;
+  /* border: solid 2px; */
+  position: absolute;
+  top: 28%;
+  height: 60px;
+}
+
+
+
+
 .stack {
-  width: 50%;
+  width: 500px;
   text-align: center;
   /* border: solid; */
   position: absolute;
-  bottom: 3%;
+  left: 55%;
+  top: 35px;
 }
 
 
@@ -140,51 +187,8 @@ a {
 .heapTwo {
   border: solid 5px #404B69;
   border-radius: 15px;
-  padding: 25px 50px;
+  padding: 20px 40px;
   background-color: white;
-
-}
-
-
-
-
-.bio-container {
-  width: 45%;
-  height: 200px;
-  border: solid 2px;
-  border-radius: 20px;
-  position: absolute;
-  left: 45%;
-  top: 21%;
-}
-
-.bio {
-  /* border: solid 2px; */
-  width: 170px;
-  height: 130px;
-  position: relative;
-  top: 15%;
-  left: 20px;
-  display: inline-block;
-}
-
-.bio-img {
-  width: 130px;
-  position: absolute;
-  bottom: 0px;
-  border: solid 2px;
-  border-radius: 50%;
-  background: white;
-  /* margin: 10px; */
-}
-
-.bio-text {
-  font-size: 30px;
-  display: inline-block;
-  /* border: solid 2px; */
-  position: absolute;
-  top: 22%;
-  height: 105px;
 }
 
 
@@ -200,12 +204,12 @@ a {
 }
 
 .new {
-  width: 57%;
-  height: 550px;
+  width: 30%;
+  height: 570px;
   border: solid 2px;
   position: absolute;
-  top: 23px;
-  left: 10%;
+  top: 17px;
+  left: 20%;
 }
 
 h3 {
@@ -214,13 +218,13 @@ h3 {
 }
 
 .topics {
-  /* border: solid 2px; */
+  border: solid 2px;
   width: 20%;
   height: 100px;
   position: absolute;
-  top: 23px;
-  right: 10%;
-  height: 550px;
+  top: 17px;
+  right: 22.5%;
+  height: 572px;
   /* padding: 10px 0px 0px 0px; */
 }
 
@@ -250,6 +254,7 @@ h3 {
   text-align: center;
   position: relative;
   top: 25px;
+  height: 185px;
 }
 
 
