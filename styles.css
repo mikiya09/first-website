@@ -1,4 +1,5 @@
 
+/* general start state */
 * {
   margin: 0px;
   padding: 0px;
@@ -10,8 +11,11 @@ body {
 }
 
 
+/* ======================================= */
+/* outter big grid setup  */
+
 .whole-grid {
-  padding: 50px 250px 0px 250px;
+  padding: 50px 350px 0px 350px;
 
   display: grid;
   gap: 1.5rem;
@@ -19,8 +23,9 @@ body {
 }
 
 
+/* menu part */
+
 .menu {
-  border: solid;
   grid-column-start: 1;
   grid-column-end: 4;
 }
@@ -56,6 +61,7 @@ body {
 .navigation-list {
   /* background-color: pink; */
   border: solid;
+  border-radius: 50px;
   display: flex;
   justify-content: flex-end;
   /* here when you use center, meaning the center of the box, not text align center */
@@ -64,7 +70,15 @@ body {
 
 
 /* modify button later */
+/* ======================================= */
 
+
+
+
+
+
+/* ======================================= */
+/* middle part of the webpage */
 h2 {
   display: inline-block;
 }
@@ -77,19 +91,15 @@ h2 {
 }
 
 .stack-one {
-  border: solid;
 }
 
 .stack-two {
-  border: solid;
 }
 
 .stack-three {
-  border: solid;
 }
 
 .stack {
-  border: solid;
   /* background-color: yellow; */
   text-align: center;
 
@@ -97,9 +107,14 @@ h2 {
   gap: 1rem;
 }
 
+.hide {
+  visibility: hidden;
+}
+
 
 .bio {
   border: solid;
+  border-radius: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,11 +140,22 @@ p {
   border: solid;
 }
 
+/* ======================================= */
 
+
+
+
+
+
+/* ======================================= */
+/* news & topics part */
+/* nested grid */
 .news {
   border: solid;
+  border-radius: 50px;
   grid-column-start: 1;
   grid-column-end: 3;
+  text-align: center;
 }
 
 
@@ -138,21 +164,20 @@ h3 {
 }
 
 
+
 .interests {
-  border: solid;
 }
 
 .resources {
-  border: solid;
 }
 
 .social {
-  border: solid;
 }
 
 
 .topics {
   border: solid;
+  border-radius: 50px;
 
   display: grid;
   gap: 1rem;
@@ -166,6 +191,8 @@ h3 {
   text-align: center;
 }
 
+
+
 h4 {
   font-size: 25px;
   display: inline-block;
@@ -173,6 +200,10 @@ h4 {
   padding: 7px;
   border-radius: 15px;
   margin: 10px 0px 10px;
+}
+
+h4 a {
+  text-decoration: none;
 }
 
 h5 {
@@ -190,6 +221,7 @@ h5 {
 
 
 
+/* ======================================= */
 
 
 .connection {
