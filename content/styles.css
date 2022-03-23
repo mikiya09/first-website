@@ -4,267 +4,198 @@
   padding: 0px;
 }
 
+
 body {
-  background-color: #283149;
-  /* background-color: #A2D5AB */
-}
-
-.container-1 {
-  width: 100%;
-  height: 150px;
-  /* border: solid 2px; */
-  background-color: #283149;
-  /* background: pink; */
-  position: relative;
-}
-
-.menu-container {
-  /* border: solid; */
-  text-align: center;
-  width: 500px;
-  position: absolute;
-  bottom: 0px;
-  left: 38%;
-}
-
-.jellyfish {
-  width: 70px;
-  /* border: solid 3px; */
-  border-radius: 50%;
-  left: 500px;
+  background: #97DBAE;
 }
 
 
+.whole-grid {
+  padding: 50px 250px 0px 250px;
 
-a {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+
+.menu {
+  border: solid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.logo {
+  width: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}  
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+  padding: 10px 0px 10px 0px;
+}
+
+
+/* new methods: only select one element inside a block */
+/* here move HOME link to the very left of the box, and the use of auto is like below:  */
+/* if you set it to auto, it will automatically fill out the space the block margin needs to take */
+.nav-item:first-child {
+  margin-right:auto;
+  margin-left: 2rem;
+}
+
+
+.nav-item a {
   text-decoration: none;
   color: black;
 }
 
-h1 {
+.navigation-list {
+  /* background-color: pink; */
+  border: solid;
+  display: flex;
+  justify-content: flex-end;
+  /* here when you use center, meaning the center of the box, not text align center */
+  align-items: center;
+}
+
+
+/* modify button later */
+
+h2 {
   display: inline-block;
-  margin: 0px 10px 0px 10px;
 }
 
-/* ======= mid container 2 ====== */
-.container-2 {
-  width: 100%;
-  height: 370px;
-  /* border: solid; */
-  /* background-color: grey; */
-  background-color: #283149;
-  position: relative;
-}
-
-
-.bio-container {
-  width: 30%;
-  height: 150px;
-  border: solid 2px;
+.music {
+  border: solid;
   border-radius: 20px;
-  position: absolute;
-  top: 27%;
-  left: 20%;
+  padding: 20px;
+  margin: 10px;
 }
+
+.stack-one {
+  border: solid;
+}
+
+.stack-two {
+  border: solid;
+}
+
+.stack-three {
+  border: solid;
+}
+
+.stack {
+  border: solid;
+  /* background-color: yellow; */
+  text-align: center;
+
+  display: grid;
+  gap: 1rem;
+}
+
 
 .bio {
-  /* border: solid 2px; */
-  width: 150px;
-  height: 110px;
-  position: relative;
-  top: 11%;
-  left: 20px;
-  display: inline-block;
+  border: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
 
 .bio-img {
-  width: 100px;
-  position: absolute;
-  bottom: 0px;
-  border: solid 2px;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  width: 7rem;
+  padding: 15px;
+  border: solid;
   border-radius: 50%;
-  background: white;
-  /* margin: 10px; */
-}
-
-.bio-text {
-  font-size: 25px;
-  display: inline-block;
-  /* border: solid 2px; */
-  position: absolute;
-  top: 28%;
-  height: 60px;
-}
-
-
-
-
-.stack {
-  width: 500px;
-  text-align: center;
-  /* border: solid; */
-  position: absolute;
-  left: 55%;
-  top: 35px;
-}
-
-
-.topStack {
-  /* border: solid; */
-  padding: 10px 0px;
-  position: relative;
-}
-
-.midStack {
-  /* border: solid; */
-  padding: 10px 0px;
-  position: relative;
-}
-
-.bottomStack {
-  /* border: solid; */
-  padding: 10px 0px;
-  position: relative;
-}
-
-.topLeft {
-  display: inline-block;
-}
-
-.topMid {
-  display: inline-block;
-}
-
-.topRight {
-  display: inline-block;
-}
-
-
-.midLeft {
-  display: inline-block;
-}
-
-.midMid {
-  display: inline-block;
-}
-
-.midRight {
-  display: inline-block;
-}
-
-
-.bottomLeft {
-  display: inline-block;
-}
-
-.bottomMid {
-  display: inline-block;
-}
-
-.bottomRight {
-  display: inline-block;
-}
-
-
-.heapTwo {
-  border: solid 5px #404B69;
-  border-radius: 15px;
-  padding: 20px 40px;
   background-color: white;
 }
 
-h2 {
-  margin: 0px 5px 0px 5px;
+p {
+  font-size: 30px;
+  text-align: center;
+  width: 70%;
+  border: solid;
 }
 
 
-/* ======= bottom container 3 ======= */
-.container-3 {
-  width: 100%;
-  height: 600px;
-  /* border: solid; */
-  /* background-color: #A2D5AB; */
-  background-color: #283149;
-  position: relative;
+.news {
+  border: solid;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-.new {
-  width: 30%;
-  height: 570px;
-  border: solid 2px;
-  position: absolute;
-  top: 17px;
-  left: 20%;
-}
 
 h3 {
   font-size: 30px;
-  /* border: solid 2px; */
-}
-
-.topics {
-  /* border: solid 2px; */
-  width: 20%;
-  height: 100px;
-  position: absolute;
-  top: 17px;
-  right: 22.5%;
-  height: 572px;
-  /* padding: 10px 0px 0px 0px; */
 }
 
 
-.interest-content1 {
-  /* border: solid 2px; */
-  text-align: center;
-  position: relative;
-  top: 10px;
+.interests {
+  border: solid;
 }
 
-.interest-content2 {
-  /* border: solid 2px; */
-  text-align: center;
-}
-
-.resource {
-  /* border: solid 2px; */
-  text-align: center;
-  position: relative;
-  top: 10px;
-
+.resources {
+  border: solid;
 }
 
 .social {
-  /* border: solid 2px; */
-  text-align: center;
-  position: relative;
-  top: 25px;
-  height: 185px;
+  border: solid;
 }
 
 
-h4 {
-  border: solid 2px;
-  border-radius: 15px;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
-  margin: 10px 0px 10px 0px;
+.topics {
+  border: solid;
+
+  display: grid;
+  gap: 1rem;
+}
+
+.interest-content1 {
   text-align: center;
-  background: white;
+}
+
+.interest-content2 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  display: inline-block;
+  border: solid;
+  padding: 7px;
+  border-radius: 15px;
+  margin: 10px 0px 10px;
 }
 
 h5 {
-  border: solid 2px;
-  border-radius: 15px;
-  font-size: 15px;
-  padding: 10px;
-  margin: 5px 0px 5px 0px;
-  width: 15%;
+  font-size: 25px;
+  margin: 10px 0px 10px;
+}
+
+.resources {
   text-align: center;
-  position: relative;
-  left: 40%;
-  background: white;
+}
+
+.social {
+  text-align: center;
+}
+
+
+
+
+
+.connection {
+  border: solid;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 
