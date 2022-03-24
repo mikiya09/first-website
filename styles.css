@@ -1,4 +1,37 @@
 
+/* ==================== font ==================== */
+
+@font-face {
+    font-family: 'Hack';
+    src: url('font/Hack-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typewriter';
+    src: url('font/Kingthings_Trypewriter_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'slkscr';
+    src: url('font/slkscr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'indieflower';
+    src: url('font/IndieFlower-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 /* general start state */
 * {
   margin: 0px;
@@ -15,10 +48,10 @@ body {
 /* outter big grid setup  */
 
 .whole-grid {
-  padding: 50px 350px 100px 350px;
+  padding: 30px 350px 30px 350px;
 
   display: grid;
-  gap: 1.5rem;
+  gap: 2.5rem;
   grid-template-columns: 1fr 1fr 1fr; 
 }
 
@@ -33,7 +66,7 @@ body {
 .logo {
   width: 5rem;
   display: block;
-  margin-left: auto;
+  margin-left: 2.5rem;
   margin-right: auto;
 }  
 
@@ -60,13 +93,20 @@ body {
 
 .navigation-list {
   /* background-color: pink; */
-  border: solid;
+  /* border: solid; */
   border-radius: 50px;
   display: flex;
   justify-content: flex-end;
   /* here when you use center, meaning the center of the box, not text align center */
   align-items: center;
 }
+
+
+h1 {
+  font-size: 35px;
+  font-family: 'slkscr';
+}
+
 
 
 /* modify button later */
@@ -81,6 +121,8 @@ body {
 /* middle part of the webpage */
 h2 {
   display: inline-block;
+  font-family: 'Hack';
+  font-size: 16px;
 }
 
 .music {
@@ -102,9 +144,10 @@ h2 {
 .stack {
   /* background-color: yellow; */
   text-align: center;
+  /* border: solid; */
 
   display: grid;
-  gap: 1rem;
+  gap: 0.2rem;
 }
 
 .hide {
@@ -126,7 +169,7 @@ h2 {
 .bio-img {
   /* margin-right: auto; */
   /* margin-left: auto; */
-  width: 7rem;
+  width: 5rem;
   padding: 15px;
   border: solid;
   border-radius: 50%;
@@ -134,10 +177,11 @@ h2 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
   width: 70%;
-  border: solid;
+  font-family: 'Hack';
+  /* border: solid; */
 }
 
 /* ======================================= */
@@ -160,7 +204,8 @@ p {
 
 
 h3 {
-  font-size: 30px;
+  font-size: 35px;
+  font-family: 'indieflower';
 }
 
 
@@ -176,7 +221,7 @@ h3 {
 
 
 .topics {
-  border: solid;
+  /* border: solid; */
   border-radius: 50px;
 
   display: grid;
@@ -194,21 +239,30 @@ h3 {
 
 
 h4 {
-  font-size: 25px;
+  font-size: 20px;
   display: inline-block;
   border: solid;
   padding: 7px;
   border-radius: 15px;
   margin: 10px 0px 10px;
+  background-color: white;
 }
 
 h4 a {
   text-decoration: none;
+  color: black;
+  font-family: 'indieflower';
 }
 
 h5 {
-  font-size: 25px;
+  font-size: 16px;
   margin: 10px 0px 10px;
+  font-family: 'Hack';
+}
+
+h5 a {
+  text-decoration: none;
+  color: black;
 }
 
 .resources {
@@ -225,7 +279,7 @@ h5 {
 
 
 .connection {
-  border: solid;
+  /* border: solid; */
   grid-column-start: 1;
   grid-column-end: 4;
 }
