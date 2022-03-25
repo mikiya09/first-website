@@ -38,7 +38,8 @@
 }
 
 body {
-  background-color: #97DBAE;
+  /* background-color: #2E3440; */
+  background-color: #8FBCBB;
 }
 
 
@@ -96,7 +97,7 @@ body {
 /* effect: [blur, shadow, transform, perspective] */
 /* ======================================= */
 
-.menu-bar {
+.home-button {
   color: black;
   text-decoration: none;
   font-size: 22px;
@@ -110,10 +111,10 @@ body {
 }
 
 /* ========= shadow from perspective view, suprt interesting ======= */
-.menu-bar::after {
+.home-button::after {
   content: "";
   position: absolute;
-  background: #6BCB77;
+  background: black;
   top: 55%;
   left: 0;
   width: 100%;
@@ -126,7 +127,7 @@ body {
 
 /* ========= shadow from perspective view, suprt interesting ======= */
 
-.menu-bar:hover {
+.home-button:hover {
   background: black;
   color: white;
   text-shadow: 
@@ -136,7 +137,7 @@ body {
 
 
 /* button */
-.contact-button {
+.menu-button {
   color: black;
   text-decoration: none;
   font-size: 22px;
@@ -149,7 +150,7 @@ body {
   position: relative;
 }
 
-.contact-button:hover {
+.menu-button:hover {
   background: black;
   color: white;
   text-shadow: 
