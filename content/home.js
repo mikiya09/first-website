@@ -4,7 +4,7 @@
 // typewriter animation
 var messageArray = ["More features will be added to website soon..."];
 var textPosition = 0;
-var speed = 120;
+var speed = 60;
 
 function typewriter() {
   document.querySelector("#message").innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
