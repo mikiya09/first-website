@@ -189,7 +189,7 @@ body {
 
 
 .pressed {
-  box-shadow: 0 3px 4px 0 white;
+  box-shadow: 0 3px 4px 0 grey;
   opacity: 0.5;
 }
 
