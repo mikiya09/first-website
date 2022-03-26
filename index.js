@@ -18,17 +18,17 @@ for (var i = 0; i < numberOfMusicButtons; i++) {
 function makeSound(key) {
 
   switch (key) {
-    case "music_one":
+    case "Moon":
       var moon = new Audio("music/月亮代表我的心-张国荣.mp3");
       moon.play();
       break;
 
-    case "music_two":
+    case "Wonderful":
       var world = new Audio("music/Louis Armstrong - What A Wonderful World.mp3");
       world.play();
       break;
 
-    case "music_three":
+    case "Luv(sic) p2":
       var aruarian = new Audio("music/Nujabes - Luv_sic part 2 (feat.Shing02).mp3");
       aruarian.play();
       break;
