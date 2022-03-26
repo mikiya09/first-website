@@ -197,7 +197,10 @@ body {
   font-size: 18px;
   margin: 0px 20px 10px 12px;
   background-color: white;
+  color: black;
 }
+
+
 
 /* since the original event is trick on button, so this effect is not clear, but later you add some fancy color effect */
 .pressed {
