@@ -188,6 +188,13 @@ body {
 }
 
 
+.pressed {
+  box-shadow: 0 3px 4px 0 white;
+  opacity: 0.5;
+}
+
+
+
 /* ================== bio =================== */
 
 
@@ -368,7 +375,7 @@ h5 a:hover {
 
 
   .music {
-    paddingL: 20px;
+    padding: 10px;
     margin: 10px;
   }
 
@@ -377,6 +384,20 @@ h5 a:hover {
     font-family: 'Hack';
     font-size: 15px;
   }
+  
+
+  .top-left {
+    margin: 0px 53px 0px 0px;
+  }
+
+  .mid-left {
+    margin: 0px 30px 0px 0px;
+  }
+
+  .bottom-left {
+    margin: 0px 10px 0px 0px;
+  }
+
 
   .music {
     display: inline-block;
