@@ -1,4 +1,23 @@
 
+
+
+// typewriter animation
+var messageArray = ["More features will be added to website soon..."];
+var textPosition = 0;
+var speed = 120;
+
+function typewriter() {
+  document.querySelector("#message").innerHTML = messageArray[0].substring(0, textPosition) + "<span>\u25ae</span>";
+  if (textPosition++ != messageArray[0].length) {
+    setTimeout(typewriter, speed);
+  }
+}
+
+window.addEventListener("load", typewriter);
+
+
+
+
 // =========================== !!! ==============================
 // this method is super messy, three redundent function call, bad
 // the correct way should be detecting which button is being click, and write a if else statement to determine which song gets play or pause
@@ -11,6 +30,8 @@ function buttonReaction() {
   
   var activation = document.querySelector(".playPauseBTN");
   activation.classList.add("pressed");
+  activation.innerHTML = "Pause";
+  // activation.innerHTML = "Play";
 
   setTimeout(function() {
     activation.classList.remove("pressed");

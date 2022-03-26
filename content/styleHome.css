@@ -4,28 +4,28 @@
 
 @font-face {
   font-family: "Hack";
-  src: url('font/Hack-Regular-webfont.woff') format('woff');
+  src: url('../font/Hack-Regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "typewriter";
-  src: url('font/Kingthings_Trypewriter_2-webfont.woff') format('woff');
+  src: url('../font/Kingthings_Trypewriter_2-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "slkscr";
-  src: url('font/slkscr-webfont.woff') format('woff');
+  src: url('../font/slkscr-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "indieflower";
-  src: url('font/IndieFlower-webfont.woff') format('woff');
+  src: url('../font/IndieFlower-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -240,6 +240,19 @@ p {
   width: 50%;
   font-family: 'Hack';
 }
+
+
+/* add animation to bio text, typewriter effect */
+span {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 /* ======================================= */
 /* news & topics part */
