@@ -2,7 +2,7 @@
 
 
 // typewriter animation
-var messageArray = ["More features will be added to website soon..."];
+var messageArray = ["More features will be added to the website soon..."];
 var textPosition = 0;
 var speed = 60;
 
