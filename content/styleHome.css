@@ -38,7 +38,7 @@
 }
 
 body {
-  /* background-color: #2E3440; */
+  /* background-color: #121212; */
   background-color: #8FBCBB;
 }
 
@@ -193,6 +193,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   text-align: center;
+  align-items: center;
   font-family: 'Hack';
   font-size: 18px;
   margin: 0px 20px 10px 12px;
@@ -594,7 +595,7 @@ h6 a {
   
 
   .top-left {
-    margin: 0px 53px 0px 0px;
+    margin: 0px 48px 0px 0px;
   }
 
   .mid-left {
@@ -602,7 +603,7 @@ h6 a {
   }
 
   .bottom-left {
-    margin: 0px 10px 0px 0px;
+    margin: 0px 48px 0px 0px;
   }
 
 
@@ -666,6 +667,14 @@ h6 a {
   .hide-left {
     font-size: 17px;
     padding: 0px 0px 0px 0px;
+  }
+
+  .top-left {
+    margin: 0px 50px 0px 0px;
+  }
+
+  .bottom-left {
+    margin: 0px 50px 0px 0px;
   }
 
   .music {

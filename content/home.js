@@ -45,15 +45,18 @@ audioOnePlay = false;
 
 function playOne() {
   var audio = document.getElementById("audio-1");
+  var playPauseBTN = document.querySelector('.topBTN');
 
   if (audioOnePlay == true) {
     audio.pause();
     audioOnePlay = false;
+    playPauseBTN.innerHTML = "&#9658; Play";
     // buttonReaction();
   }
   else {
     audio.play();
     audioOnePlay = true;
+    playPauseBTN.innerHTML = "&#10074;&#10074; Pause";  // Unicode
     // buttonReaction();
   }
 }
@@ -66,15 +69,18 @@ audioTwoPlay = false;
 
 function playTwo() {
   var audio = document.getElementById("audio-2");
+  var playPauseBTN = document.querySelector('.midBTN');
 
   if (audioTwoPlay == true) {
     audio.pause();
     audioTwoPlay = false;
+    playPauseBTN.innerHTML = "&#9658; Play";
     // buttonReaction();
   }
   else {
     audio.play();
     audioTwoPlay = true;
+    playPauseBTN.innerHTML = "&#10074;&#10074; Pause";  // Unicode
     // buttonReaction();
   }
 }
@@ -87,15 +93,18 @@ audioThreePlay = false;
 
 function playThree() {
   var audio = document.getElementById("audio-3");
+  var playPauseBTN = document.querySelector('.bottomBTN');
 
   if (audioThreePlay == true) {
     audio.pause();
     audioThreePlay = false;
+    playPauseBTN.innerHTML = "&#9658; Play";
     // buttonReaction();
   }
   else {
     audio.play();
     audioThreePlay = true;
+    playPauseBTN.innerHTML = "&#10074;&#10074; Pause";  // Unicode
     // buttonReaction();
   }
 }
