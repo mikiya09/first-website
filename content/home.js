@@ -1,6 +1,23 @@
 
 
 
+// @idea
+// 1. hover on text, showing content effect (hover on the resume menu, showing a preview of the my resume pdf or any kind of file types)
+//    - https://www.youtube.com/watch?v=3MptqFZ7B9w
+//    - https://www.youtube.com/watch?v=hm5-qMAt-FE
+
+// 2. background picture blur ?
+
+// 3. Thanos Snap effect
+
+// 4. text effect
+
+
+
+
+
+
+
 // typewriter animation
 var messageArray = ["more features will be added to the website soon..."];
 var textPosition = 0;
