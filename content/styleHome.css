@@ -306,6 +306,10 @@ h3 a {
   font-family: 'indieflower';
 }
 
+.interests-content3 {
+  text-align: center;
+  font-family: "indieflower";
+}
 
 h4 {
   font-size: 20px;
@@ -345,6 +349,7 @@ h5 a {
 h5 a:hover {
   color: blue;
 }
+
 
 
 /* ============== liquid bowl ================ */
@@ -706,7 +711,7 @@ h6 a {
   }
 
   .social {
-    margin: 100px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
   }
 
   h6 a {
