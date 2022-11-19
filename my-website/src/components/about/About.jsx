@@ -4,6 +4,8 @@ import './about.css'
 import PIC from '../../assets/happyorsad.jpg'
 
 import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
     return (
@@ -24,17 +26,35 @@ const About = () => {
                             <h5>Experience</h5>
                             <small>3+ Years Working</small>
                         </article>
+
                         <article className="about__card">
-                            <FaAward className="about__icon"/>
+                            <FiUsers className="about__icon"/>
                             <h5>Experience</h5>
                             <small>3+ Years Working</small>
                         </article>
+
                         <article className="about__card">
-                            <FaAward className="about__icon"/>
+                            <VscFolderLibrary className="about__icon"/>
                             <h5>Experience</h5>
                             <small>3+ Years Working</small>
                         </article>
                     </div>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet, 
+                        officia excepteur ex fugiat reprehenderit enim labore culpa sint 
+                        ad nisi Lorem pariatur mollit ex esse exercitation amet. 
+                        Nisi anim cupidatat excepteur officia. 
+                        Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet 
+                        voluptate voluptate dolor minim nulla est proident. 
+                        Nostrud officia pariatur ut officia. 
+                        Sit irure elit esse ea nulla sunt ex occaecat 
+                        reprehenderit commodo officia dolor Lorem duis laboris cupidatat 
+                        officia voluptate. 
+                    </p>
+
+                    <a href="#contact" className="btn btn-primary">connect to me</a>
+
                 </div>
             </div>
         </section>
