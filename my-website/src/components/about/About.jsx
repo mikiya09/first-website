@@ -2,6 +2,7 @@
 import React from 'react'
 import './about.css'
 import PIC from '../../assets/happyorsad.jpg'
+import CV from '../../assets/moanin.pdf'
 
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
@@ -41,19 +42,10 @@ const About = () => {
                     </div>
                     
                     <p>
-                        Lorem ipsum dolor sit amet, 
-                        officia excepteur ex fugiat reprehenderit enim labore culpa sint 
-                        ad nisi Lorem pariatur mollit ex esse exercitation amet. 
-                        Nisi anim cupidatat excepteur officia. 
-                        Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet 
-                        voluptate voluptate dolor minim nulla est proident. 
-                        Nostrud officia pariatur ut officia. 
-                        Sit irure elit esse ea nulla sunt ex occaecat 
-                        reprehenderit commodo officia dolor Lorem duis laboris cupidatat 
-                        officia voluptate. 
+                        This is me.
                     </p>
 
-                    <a href="#contact" className="btn btn-primary">connect to me</a>
+                    <a href={CV} download className="btn">Download CV</a>
 
                 </div>
             </div>
