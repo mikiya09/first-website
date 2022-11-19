@@ -1,8 +1,10 @@
 import React from 'react'
 import './header.css'
 /* import CTA from './CTA' */
-import ME from '../../assets/jellyfish.png'
+import ME from '../../../assets/jellyfish.png'
 import HeaderSocial from './HeaderSocials.jsx'
+
+
 
 const Header = () => {
     return (
@@ -12,8 +14,9 @@ const Header = () => {
                     <h5>El Psy</h5>
                     <h1>Congroo</h1>
                     <h5 className="text-light">Fullstack Developer</h5>
-                    <div className='explore'>
-                        <a href="#contact" className='btn btn-primary'>Explore</a>
+                    <div className='choice'>
+                        <a href="#about" className='btn'>Explore</a>
+                        <a href="/leave" className='btn btn-primary'>Leave</a>
                     </div>
                     {/* <CTA /> */}
                     <HeaderSocial />
@@ -28,5 +31,6 @@ const Header = () => {
         </section>
     )
 }
+
 
 export default Header

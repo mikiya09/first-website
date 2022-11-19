@@ -1,8 +1,8 @@
 
 import React from 'react'
 import './about.css'
-import PIC from '../../assets/happyorsad.jpg'
-import CV from '../../assets/moanin.pdf'
+import PIC from '../../../assets/happyorsad.jpg'
+import CV from '../../../assets/moanin.pdf'
 
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'

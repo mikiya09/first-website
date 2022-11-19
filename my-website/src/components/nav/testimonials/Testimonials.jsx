@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/killerqueen.jpg'
-import AVTR2 from '../../assets/killerqueen.jpg'
-import AVTR3 from '../../assets/killerqueen.jpg'
-import AVTR4 from '../../assets/killerqueen.jpg'
+import AVTR1 from '../../../assets/killerqueen.jpg'
+import AVTR2 from '../../../assets/killerqueen.jpg'
+import AVTR3 from '../../../assets/killerqueen.jpg'
+import AVTR4 from '../../../assets/killerqueen.jpg'
 
 // swip function 
 import { Pagination } from 'swiper';

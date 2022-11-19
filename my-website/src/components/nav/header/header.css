@@ -1,23 +1,25 @@
 
+/* ==================== Header Section ==================== */
+/* header section of the page, at most two more elements in this section */
 header {
-    height: 100vh;
+    height: 85vh;
     padding-top: 7rem;
     overflow: hidden;
 }
 
 .header__container {
     text-align: center;
-    height: 100%;
+    height: 75%;
     position: relative;
 }
 
 
-/* ============== Explore Section ================ */ 
+/* ============== Choices Section ================ */ 
 
-.explore {
+.choice {
     margin-top: 1.5rem;
-    /* display: flex; */
-    gap: 1.2rem;
+    display: flex;
+    gap: 0.7rem;
     justify-content: center;
 }
 

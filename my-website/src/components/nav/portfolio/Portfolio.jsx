@@ -1,12 +1,12 @@
 import React from 'react'
 import './portfolio.css'
 
-import IMG1 from '../../assets/cloud.png'
-import IMG2 from '../../assets/cloud.png'
-import IMG3 from '../../assets/cloud.png'
-import IMG4 from '../../assets/cloud.png'
-import IMG5 from '../../assets/cloud.png'
-import IMG6 from '../../assets/cloud.png'
+import IMG1 from '../../../assets/cloud.png'
+import IMG2 from '../../../assets/cloud.png'
+import IMG3 from '../../../assets/cloud.png'
+import IMG4 from '../../../assets/cloud.png'
+import IMG5 from '../../../assets/cloud.png'
+import IMG6 from '../../../assets/cloud.png'
 
 
 /* dynamically render repeative object, portfolio item below, by using array and mapping */
