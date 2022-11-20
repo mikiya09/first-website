@@ -29,10 +29,32 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 1rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
+}
+
+
+/* override default the color of anchor tag with class*/
+.github-icon {
+    color: #ffffff;
+}
+
+.youtube-icon {
+    color: #c4302B;
+}
+
+.bilibili-icon {
+    color: #4db5ff;
+}
+
+.wechat-icon {
+    color: #09B83E;
+}
+
+.blog-icon {
+    color: #fca048;
 }
 
 
@@ -47,15 +69,18 @@ header {
 
 /* ========== ME image =========== */ 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    /* background: linear-gradient(var(--color-primary), transparent); */
+    background: #D8DEE9;
+    width: 20rem;
+    /* height: 30rem; */
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 10rem);
+    /* left: 50%; */
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    /* border-radius: 12rem 12rem 0 0; */
+    border-radius: 50%;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 3rem 3rem 3rem 3rem;
 }
 
 

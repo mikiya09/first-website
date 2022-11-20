@@ -9,22 +9,24 @@
     width: 80%;
     /* this is setting for shrinking down the background of the pic */
     /* aspect-ratio: 1/1; */
-    border-radius: 8rem;
+    border-radius: 6rem;
+    /* border-radius: 50%; */
     /* background transparent for backup option */
     background: linear-gradient(
         45deg,
         transparent,
-        /* white, */
-        var(--color-primary),
+        #121212,
+        /* var(--color-primary), */
         transparent
         );
     display: grid;
     place-items: center;
-    margin: auto 3rem;
+    margin: auto 2rem;
 }
 
 .about__me-image {
-    border-radius: 8rem;
+    border-radius: 6rem;
+    /* border-radius: 50%; */
     overflow: hidden;
     transform: rotate(15deg);
     transition: var(--transition);

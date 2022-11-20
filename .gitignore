@@ -33,7 +33,11 @@ Temporary Items
 .apdisk
 
 
-# extra 
+# node_modules is too large
+node_modules
+
+# extra
 testProject
+
 
 # End of https://www.toptal.com/developers/gitignore/api/macos

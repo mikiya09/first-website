@@ -1,7 +1,9 @@
 
-/* google fonts */
+/* google fonts */ 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
+
+/* initialize start template */ 
 * {
     margin: 0;
     padding: 0;
@@ -13,46 +15,49 @@
 }
 
 
-/* css variable: root variable meaning that you can use it through out the whole project */
+/* css variable: root variable meaning that you can use it through out the whole project */ 
 :root {
-    /* default color */
+     /* default color */ 
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(225, 225, 225, 0.6);
+    --color-black: #1f2126;
 
-    /* transition */
+     /* transition */ 
     --transition: all 400ms ease;
 
-    /* container width */
+     /* container width */ 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
 
-/* html behavior  */
+/* html behavior  */ 
 html {
     scroll-behavior: smooth;
 }
 
-/* scrolling bar */
-::~webkit-scrollbar {
-    display: none;
-}
+/* ================================= this is code box is causing compile error ================================= */
+/* scrolling bar */ 
+/* ::~webkit-scrollbar { */
+/*     display: none; */
+/* } */
+/* ==================================== leave it for later in the time ================================== */
 
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-black);
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.png);
 }
 
 
-/* ===================== GENERAL STYLES ======================= */
+/* ===================== GENERAL STYLES ======================= */ 
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
@@ -88,15 +93,15 @@ section > h2 {
     color: var(--color-light);
 }
 
-/* a stands for every anchor tag */
-/* a HTML element with href attribute, creates a hyperlink to web pages, files, email addresss, etc  */
-/* each <a> should indicate the link's destination */
+/* a stands for every anchor tag */ 
+/* a HTML element with href attribute, creates a hyperlink to web pages, files, email addresss, etc  */ 
+/* each <a> should indicate the link's destination */ 
 a {
     color: var(--color-primary);
     transition: var(--transition);
 }
 
-/* hovering for anchor tag element */
+/* hovering for anchor tag element */ 
 a:hover {
     color: var(--color-white);
 }
@@ -120,7 +125,7 @@ a:hover {
     color: var(--color-bg);
 }
 
-/* what is object-fit variable ? */
+/* what is object-fit variable ? */ 
 img {
     display: block;
     width: 100%;
@@ -128,7 +133,7 @@ img {
 }
 
 
-/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */ 
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */  
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
@@ -140,7 +145,7 @@ img {
 }
 
 
-/* ===================== MEDIA QUERIES (SMALL DEVICES) ==================== */ 
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ==================== */  
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);

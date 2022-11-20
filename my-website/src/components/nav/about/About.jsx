@@ -4,15 +4,17 @@ import './about.css'
 import PIC from '../../../assets/happyorsad.jpg'
 import CV from '../../../assets/moanin.pdf'
 
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+
+import {IoIosGitNetwork} from 'react-icons/io'
+import {BiBrain} from 'react-icons/bi'
+import {TbMathFunction} from 'react-icons/tb'
+
 
 const About = () => {
     return (
         <section id='about'>
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+            <h5>Brief</h5>
+            <h2>About</h2>
 
             <div className="container about__container">
                 <div className="about__me">
@@ -23,21 +25,21 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className="about__card">
-                            <FaAward className="about__icon"/>
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <IoIosGitNetwork className="about__icon"/>
+                            <h5>ComSci</h5>
+                            <small>deep learning</small>
                         </article>
 
                         <article className="about__card">
-                            <FiUsers className="about__icon"/>
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <BiBrain className="about__icon"/>
+                            <h5>Psychology</h5>
+                            <small>memory</small>
                         </article>
 
                         <article className="about__card">
-                            <VscFolderLibrary className="about__icon"/>
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <TbMathFunction className="about__icon"/>
+                            <h5>Mathematics</h5>
+                            <small>just enough</small>
                         </article>
                     </div>
                     

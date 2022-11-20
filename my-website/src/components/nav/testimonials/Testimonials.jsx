@@ -17,31 +17,31 @@ import 'swiper/css/pagination';
 const data = [
     {
         avatar: AVTR1,
-        name: 'xxxx',
-        review: 'xxxxxxxxxxxxxxxxxxxxa;sdlkfja;sdlkfja;sdlkfja;lsdkfj;asdlkjfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        name: 'Killer Queen',
+        review: 'No.3 Bomb'
     },
     {
         avatar: AVTR2,
-        name: 'xxxx',
-        review: 'xxxxxxxxxxxxxxxxxxxxa;sdlkfja;sdlkfja;sdlkfja;lsdkfj;asdlkjfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        name: 'Rick',
+        review: 'go into the space'
     },
     {
         avatar: AVTR3,
-        name: 'xxxx',
-        review: 'xxxxxxxxxxxxxxxxxxxxa;sdlkfja;sdlkfja;sdlkfja;lsdkfj;asdlkjfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        name: 'Big Brother',
+        review: 'smoke'
     },
     {
         avatar: AVTR4,
-        name: 'xxxx',
-        review: 'xxxxxxxxxxxxxxxxxxxxa;sdlkfja;sdlkfja;sdlkfja;lsdkfj;asdlkjfxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        name: 'Average Joe',
+        review: "don't know what's going on"
     },
 ]
 
 const Testimonials = () => {
     return (
         <section id="testimonials">
-            <h5>Review From Clients</h5>
-            <h2>Testimonials</h2>
+            <h5>Reviews</h5>
+            <h2>Message</h2>
             
             <Swiper className="container testimonials_container"
             // install Swiper Modules
